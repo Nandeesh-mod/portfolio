@@ -1,0 +1,286 @@
+html{
+    scroll-behavior: smooth;
+}
+.outerbox
+{
+    box-shadow: 3px 3px 20px 2px black;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.sub1
+{
+    width: 50%;
+    background: rgb(197, 179, 212);
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+.sub2
+{
+    width: 50%;
+    background: aliceblue;;
+    height: 700vh;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2srem;
+}
+
+nav{
+    
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin-right: 0px;
+    box-shadow: 3px 3px 10px 2px rgb(129, 119, 119);
+}
+nav ul 
+{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "neue-haas-unica",sans-serif;
+    color: rgb(13, 12, 12);
+    font-weight: bold;
+}
+
+.boxy
+{
+    margin-left: 40px;
+    position: absolute;
+    width: 600px;
+    top: 350px;
+    left: 40px;
+}
+
+span
+{
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -.02em;
+    text-transform: none;
+    line-height: 1.5em;
+}
+.aboutme
+{
+    text-align: left;
+    width: 500px;
+}
+.profile
+{
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px 2px rgb(123, 110, 110);
+}
+ul li{
+
+    list-style: none;
+}
+.button
+{
+    position: absolute;
+    bottom: 7px;
+}
+.button:hover
+{
+    border-bottom: solid rgb(29, 46, 231) 5px;
+    color: rgb(29, 46, 231) ;
+    
+}
+
+.button:active{
+    border-bottom: solid rgb(29, 46, 231) 5px;
+    color: rgb(29,46,231);
+    font-weight: bold;
+}
+.img
+{
+    margin-top: 80px;
+
+}
+.profileimage
+{
+    margin-bottom: 30px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 20px 2px black;
+}
+
+.intro
+{
+
+   text-align: left;
+    font-size: 20px;
+    font-family:'Cormorant SC', serif;
+    color: rgb(253, 245, 245);
+    font-weight: bolder;
+    word-spacing: 2px;
+    margin-left: 60px;
+    background-color: rgb(29, 46, 231);
+    margin: 30px 40px 10px 40px;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px 2px rgb(10, 7, 7);
+    line-height: 30px;
+    transition-duration: 1s;
+
+
+}
+.intro:hover
+{
+    transform: scale(1.02,1.02);
+}
+#repeated{
+ background-size: cover;
+ width: 100%;
+}
+
+#about-me{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skillz
+{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Cormorant SC', serif;
+    color: rgb(253, 245, 245);
+    font-weight: bolder;
+    word-spacing: 2px;
+    margin-left: 60px;
+    background-color: rgb(66, 9, 88);
+    margin: 30px 40px 10px 40px;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px 2px rgb(10, 7, 7);
+    line-height: 30px;
+    transition-duration: 1s;
+
+}
+.skillz:hover{
+    transform: scale(1.02,1.02);
+}
+.skills-me
+{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Education
+{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.edu-me
+{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Cormorant SC', serif;
+    color: rgb(253, 245, 245);
+    font-weight: bolder;
+    word-spacing: 2px;
+    margin-left: 60px;
+    background-color: rgb(5, 42, 73);
+    margin: 30px 40px 10px 40px;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px 2px rgb(10, 7, 7);
+    line-height: 30px;
+    transition-duration: 1s;
+}
+.edu-me:hover{
+    transform: scale(1.02,1.02);
+}
+.contact-me
+{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact
+{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Cormorant SC', serif;
+    color: rgb(253, 245, 245);
+    font-weight: bolder;
+    word-spacing: 2px;
+    margin-left: 60px;
+    background-color: rgba(2, 8, 59, 0.938);
+    margin: 30px 40px 10px 40px;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px 2px rgb(10, 7, 7);
+    line-height: 30px;
+}
+
+input
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    margin: 10px 20px 10px 30px;
+    padding: 4px;
+}
+#submitb
+{
+    align-items: center;
+    transition-duration: 1s;
+}
+#submitb:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.navigation-footer
+{
+    background-color: black;
+}
+
+.navigation-footer li a
+{
+    color: white;
+}
+
+.navigation-footer li a:hover{
+    border-bottom: solid white 2px;
+}
+@keyframes rainbow-background {
+    0%
+    { color:#0d51e2;}
+    20.333%
+    { color:rgb(0, 131, 0)}
+    46.667%
+    { color:rgb(67, 67, 170)}
+    65.000%
+    { color:rgb(231, 14, 14)}
+    100%
+    { color:rgb(4, 15, 107)}
+ }
+
+
